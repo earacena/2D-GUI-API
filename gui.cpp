@@ -50,12 +50,12 @@ int GUI::initialize_sdl()
 
 void GUI::add_panel(int x, int y, int w, int h, std::string name, int r, int g, int b, int a, bool flag)
 {
-	int offset = 5;
-	Panel panel_border(x-offset,y-offset, w+offset+5,h+offset+5, name + " border");
+	int offset = 1;
+	Panel panel_border(x-offset,y-offset, w+offset+offset,h+offset+offset, name + " border");
 	panel_border.set_panel_color(0,0,0,255);
 	panel_border.check_mouse_activity = false;
 	panels.push_back(panel_border);
-
+	
 	Panel panel(x, y, w, h, name);
 	panel.set_panel_color(r, g, b, a);
 	panel.check_mouse_activity = flag;

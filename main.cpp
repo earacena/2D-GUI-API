@@ -6,13 +6,13 @@
  *          Description:    Main routine file of project. Uses SDL for immediate
  *                          GUI.
  */
-
 #include "application.h"
+
 int main(int argc, char* argv[])
 {
-    Application app;
+	Application app;
 
-    app.execute();
+	app.execute();
 
-    return EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }
