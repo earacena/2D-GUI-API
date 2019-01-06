@@ -12,7 +12,7 @@ Panel::Panel(int position_x, int position_y, int panel_width, int panel_height, 
 	panel_.y = position_y;
 	panel_.w = panel_width;
 	panel_.h = panel_height;
-	name_ = name;
+	name_ 	 = name;
 }
 
 int Panel::get_panel_x()
@@ -40,13 +40,13 @@ int Panel::get_panel_height()
 void Panel::set_panel_color(int r, int g, int b, int a)
 {
 	if(r > 255 || r < 0)
-		r = 255;
+		r %= 255;
 	if(g > 255 || g < 0)
-		g = 255;	
+		g %= 255;	
 	if(b > 255 || b < 0)
-		b = 255;
+		b %= 255;
 	if(a > 255 || a < 0 )
-		a = 255;
+		a %= 255;
 
 	color_r = r;
 	color_g = g;
