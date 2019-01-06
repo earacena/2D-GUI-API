@@ -44,13 +44,15 @@ void Application::execute()
 
     	// Check if mouse is hovering over panels
     	for(Panel panel : gui.panels) {
-    		if (panel.check_mouse_activity && panel.is_mouse_within_boundaries()) {
-    			while(clicked_on) {
-    				std::cout << panel.get_panel_name() << ": CLICKED" << std::endl;
-    				// Insert button action here (below)
-    				// ...
-    				clicked_on = false;
+    		if (panel.check_mouse_activity && panel.is_mouse_within_boundaries() && clicked_on) {
+    			
+    			std::cout << panel.get_panel_name() << ": CLICKED" << std::endl;
+    			// Insert button action here (below)
+    			if( panel.get_panel_name() == "BUTTON A" ) {
+    				std::cout << "BUTTON A: FUNCTION ACTIVATED!" << std::endl;
     			}
+    			// ...
+    			clicked_on = false;
     		}
     		
     	}
