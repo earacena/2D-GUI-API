@@ -26,7 +26,7 @@ void Application::execute()
 	// parameters: posx,posy, width, height, name, r, g, b, a, bool mouse_detection
 	gui.add_panel(50, 50, 100, 400, "PANEL A", 255, 255, 255, 255, false);
 	gui.add_panel(50, 500, 100, 50, "PANEL B", 10, 255, 24, 255, true);
-	gui.add_panel(75, 75, 20, 20, "BUTTON A", 255, 255, 255, 255, true);
+	gui.add_panel(75, 75, 50, 20, "BUTTON A", 255, 255, 255, 255, true);
 
 	std::cout << "Entering render loop..." << std::endl;
 
@@ -36,10 +36,11 @@ void Application::execute()
 				quit = true;
 			if( event.type == SDL_MOUSEBUTTONDOWN && !clicked_on) 
 				clicked_on = true;
+			if(event.type == SDL_MOUSEBUTTONUP && clicked_on)
+				clicked_on = false;
     	}
 
     	gui.render();
-
 
     	// Check if mouse is hovering over panels
     	for(Panel panel : gui.panels) {

@@ -25,6 +25,8 @@ public:
 	void set_panel_color(int r, int g, int b, int a);
 	std::string get_panel_name();
 
+	void action();
+
 	int color_r;
 	int color_g;
 	int color_b;

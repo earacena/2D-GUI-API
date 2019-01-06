@@ -42,7 +42,7 @@ int GUI::initialize_sdl()
     std::cout << "SDL successfully initialized..." << std::endl;
 
     	//std::cout << "Changing background color..." << std::endl;
-    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+    SDL_SetRenderDrawColor(renderer, 100, 100, 100, 255);
 	SDL_RenderClear(renderer);
     
  	return 0;
@@ -55,7 +55,7 @@ void GUI::add_panel(int x, int y, int w, int h, std::string name, int r, int g, 
 	panel_border.set_panel_color(0,0,0,255);
 	panel_border.check_mouse_activity = false;
 	panels.push_back(panel_border);
-	
+
 	Panel panel(x, y, w, h, name);
 	panel.set_panel_color(r, g, b, a);
 	panel.check_mouse_activity = flag;
