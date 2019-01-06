@@ -1,0 +1,10 @@
+Abstract away button placement to Panel object:
+	Have mode setter that changes placement from centered, left-align and right align
+
+Add menu with scrollbar
+
+Add Text for individual menu items
+
+Add drop-down menu:
+	Top and bottom drop
+	
