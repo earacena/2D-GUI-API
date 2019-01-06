@@ -6,6 +6,9 @@
  */
 #include "application.h"
 
+// Prototypes for button functions
+void on_click_button_a();
+
 // Constructor
 Application::Application()
 {
@@ -17,9 +20,6 @@ Application::Application()
 	else
 		std::cout << "Failure to initialize all application components." << std::endl;
 }
-
-// Prototypes for button functions
-void on_click_button_a();
 
 // Main execution loop
 void Application::execute()
@@ -63,6 +63,8 @@ void Application::execute()
 	gui.quit_sdl();
 }
 
+
+// Button function implementations
 void on_click_button_a()
 {
 	std::cout << "BUTTON A: FUNCTION ACTIVATED!" << std::endl;
