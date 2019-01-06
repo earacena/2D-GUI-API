@@ -18,6 +18,9 @@ Application::Application()
 		std::cout << "Failure to initialize all application components." << std::endl;
 }
 
+// Prototypes for button functions
+void on_click_button_a();
+
 // Main execution loop
 void Application::execute()
 {
@@ -49,7 +52,7 @@ void Application::execute()
     			std::cout << panel.get_panel_name() << ": CLICKED" << std::endl;
     			// Insert button action here (below)
     			if( panel.get_panel_name() == "BUTTON A" ) {
-    				std::cout << "BUTTON A: FUNCTION ACTIVATED!" << std::endl;
+    				on_click_button_a();
     			}
     			// ...
     			clicked_on = false;
@@ -58,4 +61,9 @@ void Application::execute()
     	}
     }
 	gui.quit_sdl();
+}
+
+void on_click_button_a()
+{
+	std::cout << "BUTTON A: FUNCTION ACTIVATED!" << std::endl;
 }
