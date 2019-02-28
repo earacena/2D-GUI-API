@@ -13,7 +13,7 @@
   C/C++, SDL 2.0
 ## Description
 
-  This API allows the creation of panels, buttons, and custom components with working mouse press, hover, and boundary detection.
+  This API allows the creation of panels, buttons, and custom components with working mouse press, hover, and boundary detection for 2D applications using the SDL 2.0 framework.
   
 ## Build instructions
 
