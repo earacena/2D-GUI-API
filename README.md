@@ -1,21 +1,21 @@
 # 2D-GUI-API
-## Author(s)
-
+### Author(s)
   Emanuel Aracena
-## Date Created:
+### Date Created:
 
   January 6, 2019
-## Target / Tested Platform(s)
-  
-  Windows 10 64-bit
-## Dependencies / Libraries / API / Languages / Frameworks
-
-  C/C++, SDL 2.0
-## Description
+  ## Description
 
   This API allows the creation of panels, buttons, and custom components with working mouse press, hover, and boundary detection for 2D applications using the SDL 2.0 framework.
+
   
-## Build instructions
+### Target / Tested Platform(s)
+  
+  Windows 10 64-bit
+### Dependencies / Libraries / API / Languages / Frameworks
+  C/C++, SDL 2.0
+  
+### Build instructions
 
   On Windows, double-click the "build.bat" script.
 
