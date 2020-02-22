@@ -1,6 +1,6 @@
 /*
  *	File Name:	panel.h
- *	Author:		Emanuel Aracena
+ *	Author:		Emanuel Aracena Beriguete
  *	Date Created: 	January 4, 2019
  *	Description:	Panel class interface.
  */
