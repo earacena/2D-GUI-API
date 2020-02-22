@@ -1,6 +1,6 @@
 # 2D-GUI-API
 ### Author(s)
-  Emanuel Aracena
+  Emanuel Aracena Beriguete
 ### Date Created:
 
   January 6, 2019
