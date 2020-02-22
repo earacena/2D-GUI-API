@@ -1,6 +1,6 @@
 /*
  *	File Name:	gui.h
- *	Author:		Emanuel Aracena
+ *	Author:		Emanuel Aracena Beriguete
  *	Date Created: 	January 3, 2019
  *	Description:	GUI class interface.
  */
