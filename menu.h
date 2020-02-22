@@ -1,6 +1,6 @@
 /*
  *	File Name:	menu.h
- *	Author:		Emanuel Aracena
+ *	Author:		Emanuel Aracena Beriguete
  *	Date Created: 	January 5, 2019
  *	Description:	Menu class interface.
  */
