@@ -1,5 +1,5 @@
 /*      Project title:  Paint application with GUI system using SDL
- *      Author:         Emanuel Aracena
+ *      Author:         Emanuel Aracena Beriguete
  *      Date Created:   January 3, 2019
  *
  *          File name:      main.cpp
