@@ -1,6 +1,6 @@
 /*
  *	File Name:	application.cpp
- *	Author:		Emanuel Aracena
+ *	Author:		Emanuel Aracena Beriguete
  *	Date Created: 	January 3, 2019
  *	Description:	Application class implementation.
  */
